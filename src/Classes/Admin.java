@@ -1,9 +1,10 @@
 
-package nameOfPackage;
+package Classes;
 
 public class Admin extends Instructor {
 	// EMPTY ADMIN CLASS [FINAL COPY WILL DEFINETLY VARY]
-    public Admin(){    
+    public Admin(){
+    	super();
     }
     
     public boolean changePassword(int userId, String newPassword){
